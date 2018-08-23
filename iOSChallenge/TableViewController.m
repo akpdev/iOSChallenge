@@ -90,6 +90,7 @@
     cell.author.text = [dict objectForKey:@"author"];
     
     return cell;
+    
 }
 
 - (void) tableView: (UITableView *) tableView didSelectRowAtIndexPath: (NSIndexPath *) indexPath {

@@ -16,6 +16,4 @@
 
 @property (strong, nonatomic) UISearchController *searchController;
 
-
-
 @end
