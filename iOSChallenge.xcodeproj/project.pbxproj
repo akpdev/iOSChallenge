@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C24CC37C212F123D00629E62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C24CC37B212F123D00629E62 /* AppDelegate.m */; };
-		C24CC37F212F123D00629E62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C24CC37E212F123D00629E62 /* ViewController.m */; };
 		C24CC382212F123D00629E62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24CC380212F123D00629E62 /* Main.storyboard */; };
 		C24CC384212F123F00629E62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C24CC383212F123F00629E62 /* Assets.xcassets */; };
 		C24CC387212F123F00629E62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24CC385212F123F00629E62 /* LaunchScreen.storyboard */; };
 		C24CC38A212F123F00629E62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C24CC389212F123F00629E62 /* main.m */; };
 		C24CC394212F123F00629E62 /* iOSChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C24CC393212F123F00629E62 /* iOSChallengeTests.m */; };
 		C24CC39F212F123F00629E62 /* iOSChallengeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C24CC39E212F123F00629E62 /* iOSChallengeUITests.m */; };
+		C24CC3AE212F129700629E62 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C24CC3AD212F129700629E62 /* TableViewCell.m */; };
+		C24CC3B1212F12A500629E62 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C24CC3B0212F12A500629E62 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +39,6 @@
 		C24CC377212F123D00629E62 /* iOSChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C24CC37A212F123D00629E62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C24CC37B212F123D00629E62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C24CC37D212F123D00629E62 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C24CC37E212F123D00629E62 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C24CC381212F123D00629E62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C24CC383212F123F00629E62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C24CC386212F123F00629E62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,10 @@
 		C24CC39A212F123F00629E62 /* iOSChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C24CC39E212F123F00629E62 /* iOSChallengeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSChallengeUITests.m; sourceTree = "<group>"; };
 		C24CC3A0212F123F00629E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24CC3AC212F129700629E62 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		C24CC3AD212F129700629E62 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		C24CC3AF212F12A500629E62 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		C24CC3B0212F12A500629E62 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +106,15 @@
 			children = (
 				C24CC37A212F123D00629E62 /* AppDelegate.h */,
 				C24CC37B212F123D00629E62 /* AppDelegate.m */,
-				C24CC37D212F123D00629E62 /* ViewController.h */,
-				C24CC37E212F123D00629E62 /* ViewController.m */,
 				C24CC380212F123D00629E62 /* Main.storyboard */,
 				C24CC383212F123F00629E62 /* Assets.xcassets */,
 				C24CC385212F123F00629E62 /* LaunchScreen.storyboard */,
 				C24CC388212F123F00629E62 /* Info.plist */,
 				C24CC389212F123F00629E62 /* main.m */,
+				C24CC3AC212F129700629E62 /* TableViewCell.h */,
+				C24CC3AD212F129700629E62 /* TableViewCell.m */,
+				C24CC3AF212F12A500629E62 /* TableViewController.h */,
+				C24CC3B0212F12A500629E62 /* TableViewController.m */,
 			);
 			path = iOSChallenge;
 			sourceTree = "<group>";
@@ -262,9 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C24CC37F212F123D00629E62 /* ViewController.m in Sources */,
 				C24CC38A212F123F00629E62 /* main.m in Sources */,
+				C24CC3AE212F129700629E62 /* TableViewCell.m in Sources */,
 				C24CC37C212F123D00629E62 /* AppDelegate.m in Sources */,
+				C24CC3B1212F12A500629E62 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
